@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- my Script -->
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 
 </head>
 
@@ -59,8 +59,8 @@
         xl:justify-content[space-between]
         xl:align-items[center]
         xl:font-size[40px]">
-                <div id="leftHeader">
-                    <button id="leftHeader" class="w3-btn w3-button w3-light-grey">Home</button>
+                <div id="">
+                    <button id="home" class="w3-btn w3-button w3-light-grey">Home</button>
                 </div>
                 <div class=" mainTitle $ md:width[auto] 
                        md:display[flex] 
@@ -73,7 +73,7 @@
 
                 <div class="rightButton">
                     <div class=" md:display[flex] md:align-items[center]">
-                        <button id='profileButton' class="$ w3-btn w3-button w3-light-grey">Profile</button>
+                        <button id='addButton' class="$ w3-btn w3-button w3-light-grey">Add</button>
                     </div>
                 </div>
                 <!--         end of header -->
@@ -83,9 +83,8 @@
     </div>
 
     <div id="studentsRolodex">
-        <div id="studentContainer">
-                
-        </div>
+        <div id="populatePage"></div>
+        <div id="studentContainer"></div>
     </div>
 
 </body>
